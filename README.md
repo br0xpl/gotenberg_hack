@@ -1,4 +1,11 @@
 
+# PoC code for exploiting Gotenberg 2020 vulnerabilities
+
+Refer to CVE-2020-13449, CVE-2020-13450, CVE-2020-13451, CVE-2020-13452:
+https://sploit.tech/2020/12/29/Gotenberg.html
+
+Write-up:
+<medium link soon>
 
 # Instructions
 
